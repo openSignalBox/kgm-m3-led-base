@@ -197,7 +197,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9821f37f-ad84-4b1a-b8ad-2611de61a2a7")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -397,7 +397,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6bef8f6-00b4-48c0-8adc-681aa14ee91e")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -597,7 +597,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba1b6cb7-5702-4a9c-8928-7344cf472f59")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -741,6 +741,107 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(layer "F.Cu")
+		(uuid "2185fb2d-db83-427b-baef-f277c0fdd636")
+		(at 144.272 79.248)
+		(descr "Fiducial, circular marking, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0 -1.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c24f42f8-3e62-4f5e-b716-66b0116a6cba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 1.7 0)
+			(layer "F.Fab")
+			(uuid "ba95b008-c07f-4b03-ab3e-96949e34411e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0192e0fb-5a4e-472b-9781-6da694c372db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00d55de3-359d-47e0-8f82-5fb691ff09ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/7b76fb5e-2081-4904-9485-3282efaef755")
+		(sheetname "/")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d35316d7-71f6-4dde-82b1-7b3c879e50c9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e74bcadd-9bc5-417d-a8ab-faf786efd7b1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7d8ea0ff-089a-4659-a2f1-13c101d68d80")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.75 0.75)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.375)
+			(clearance 0.475)
+			(uuid "f4fadc9d-c584-4ab5-bbba-236a563506bc")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2d2e92a2-24fe-4140-9b4c-5ce913b0f484")
@@ -797,7 +898,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7550f36d-482c-4690-b10f-129306b80b7c")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -997,7 +1098,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/adcc1da0-e27a-4549-9bcd-527e16f54a17")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1197,7 +1298,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/08ec2403-ed32-466d-9384-52607294873c")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1397,7 +1498,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b5254dd4-ae52-48c2-8089-a50ed4f4b7f0")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -1541,6 +1642,107 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(layer "F.Cu")
+		(uuid "38941f77-37f2-4f99-bda9-96c2f9246b6e")
+		(at 160.782 123.952)
+		(descr "Fiducial, circular marking, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -1.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c9a16f9-195b-4ae4-9ff0-d20f8c6743ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 1.7 0)
+			(layer "F.Fab")
+			(uuid "d4cd6a45-5dd4-4bc5-8c53-c91db97eea45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0437616-e070-4354-bf1a-ab97cdde2e92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac806c9b-9114-4af0-8197-b7df90279f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/92e3e5d1-d316-4716-b82c-58e57bef8648")
+		(sheetname "/")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "51ecb964-beef-414a-a040-706d864e8abf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "bed5d7af-9b95-4855-8c85-0b48f5b2a022")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ec5e32ce-c59f-4d6e-819a-4dd65cc29eaf")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.75 0.75)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.375)
+			(clearance 0.475)
+			(uuid "7e6ed692-79a3-48bd-8152-acd5039e4abc")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(locked yes)
 		(layer "F.Cu")
@@ -1598,7 +1800,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/80823d78-01fe-4c98-91c7-5363317c1a2f")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1639,6 +1841,107 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "0804830b-5e84-4703-8aff-be8323eb0b8d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+		(layer "F.Cu")
+		(uuid "669b2926-8065-45b9-8f6f-6f9b37c420d3")
+		(at 152.4 123.952)
+		(descr "Fiducial, circular marking, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
+		(tags "fiducial")
+		(property "Reference" "FID3"
+			(at 0 -1.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c64f915-7a11-4bc6-ba49-88c02fc785ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 1.7 0)
+			(layer "F.Fab")
+			(uuid "a7f55786-30b8-4aa3-b50a-2eadeb2aa334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b71ab38f-407a-4ad9-ad4a-dc825185456b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae459fcd-8395-4dba-b68f-de0183b37b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/e9c948b2-33b7-4ace-95b4-4b1c0ae4d590")
+		(sheetname "/")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8bc8a0b3-b86a-4b1b-8c6b-c806b12ce738")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a5eaf48d-6875-49d1-b11e-f73988cb762f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6e92fb8c-cf0a-4986-9901-9e3b3622aa99")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.75 0.75)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.375)
+			(clearance 0.475)
+			(uuid "02cd4cf3-289e-4298-ac94-c4297ef93671")
 		)
 		(embedded_fonts no)
 	)
@@ -1699,7 +2002,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/57a25d46-3820-4fae-89f4-0927dfc2535a")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1799,7 +2102,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5a20f86d-cbfa-4e78-bd77-51c20d4bc914")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -1946,12 +2249,12 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "b271e21b-30d7-4c8d-9933-5c3eebdade74")
-		(at 144.272 79.1972)
+		(at 144.272 79.248)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "225b158d-464e-4b3f-83d3-1e1bd3a21e32")
+			(uuid "2f1c6505-33c2-41a0-8c10-e353fdd04ae1")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1963,7 +2266,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5a9b5a62-cb1a-4b1f-af16-92bc45ed0d8e")
+			(uuid "49be0ad6-dbc9-47ab-bec2-e38e122d3734")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -1975,7 +2278,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58819cb7-99e0-4032-ad49-c2ed45618531")
+			(uuid "2e77e79b-4ca5-473d-a115-91d4076723c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2290,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c320b81e-bf59-4c0b-b84b-9813d14c4188")
+			(uuid "b6965e58-a31e-4411-a0af-da327a2f7c6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2533,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/d05122dd-1a55-41c4-ae9f-5b8c4b156a45")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.815 3.92)
@@ -2940,7 +3243,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0308bc32-388a-4aed-b6d7-6a238678b29a")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -3140,7 +3443,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2a9931c7-0d78-46c1-8222-24cce2b4df6d")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -3359,7 +3662,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5c0d2a53-97d6-4aa9-81c3-4d462bd6eec4")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -3598,7 +3901,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c112e65a-e9bb-4b62-8b68-c73dc0adbd40")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -3837,7 +4140,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4f71a7da-77dd-4f88-be7d-b458c41b48a9")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -4076,7 +4379,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/76d7aa16-d7a8-4cc4-a1df-7a0e78cda229")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -4315,7 +4618,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e7a3fa67-bb02-4a3f-a315-9e4f52fa6ff0")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -4554,7 +4857,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fa98c26c-f66d-4426-b914-4d1e478685a3")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -4793,7 +5096,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/503e0f86-b1d1-49af-9e60-5ba7ffa22d01")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -5032,7 +5335,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6998752f-fd70-4c9f-b514-3cf9720dce80")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -5271,7 +5574,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/5923bfc0-3e24-4788-bcf7-9517617544d5")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -5510,7 +5813,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/43750093-561f-49f4-b99c-9e88e8592705")
 		(sheetname "/")
-		(sheetfile "kgm-led-back.kicad_sch")
+		(sheetfile "kgm-m3-led-base.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.29 1.545)
@@ -5758,8 +6061,8 @@
 		(layer "Edge.Cuts")
 		(uuid "eed87c29-1432-40a0-91af-61c4c296fd3c")
 	)
-	(gr_text "KGM M3 LED Base Board v1. openSignalBox 2026"
-		(at 162.56 120.65 90)
+	(gr_text "KGM M3 LED Base Board v1. openSignalBox.org 2026"
+		(at 162.052 102.87 90)
 		(layer "F.SilkS")
 		(uuid "e872026e-ff5d-4ea1-ba14-cf92fca95a3c")
 		(effects
@@ -5767,7 +6070,6 @@
 				(size 1 1)
 				(thickness 0.125)
 			)
-			(justify left bottom)
 		)
 	)
 	(segment

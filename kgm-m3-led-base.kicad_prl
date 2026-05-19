@@ -53,9 +53,9 @@
     "zone_display_mode": 1
   },
   "git": {
-    "repo_type": "",
-    "repo_username": "",
-    "ssh_key": ""
+    "repo_type": "ssh",
+    "repo_username": "git",
+    "ssh_key": "C:\\Users\\znr52799\\.ssh\\id_ed25519"
   },
   "meta": {
     "filename": "kgm-m3-led-base.kicad_prl",
